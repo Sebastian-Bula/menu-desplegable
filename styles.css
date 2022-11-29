@@ -1,0 +1,47 @@
+html{
+    height: 790px;
+}
+
+body{
+    background-color: #8b8b8b72;
+}
+
+.main{
+    display: grid;
+    justify-items: start;
+    margin: 20px;
+    padding: 20px;
+}
+
+.menuOpen{
+    width: 500px;
+    transition: 3s;
+}
+
+.menu{
+    transition: 3s;
+    background-color: #292929ab;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: #00000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgMenuButton{
+    width: 30px;
+}
